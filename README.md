@@ -53,6 +53,18 @@ A dedicated background worker continuously consumes logs from the queue and writ
 Database writes are executed in a thread pool to prevent blocking the FastAPI event loop.
 
 ---
+## 🛠 Tech Stack
+
+- Python 3.11+
+- FastAPI
+- AsyncIO
+- SQLite
+- Pydantic
+- Uvicorn
+- Heapq
+- Collections (Deque)
+
+---
 
 ##  System Architecture
 
@@ -119,7 +131,8 @@ log-aggregator-engine/
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repository-url>
+git clone git@github.com:glennPerez1/log-aggregator-engine.git
+git clone https://github.com/glennPerez1/log-aggregator-engine.git
 cd log-aggregator-engine
 ```
 
