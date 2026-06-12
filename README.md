@@ -281,7 +281,3 @@ This project demonstrates:
 * Real-time analytics pipelines
 
 ---
-
-## 📜 License
-
-This project is intended for educational purposes and system design practice.
